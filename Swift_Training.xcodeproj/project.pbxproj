@@ -16,6 +16,8 @@
 		31B4C9EE271B0D8600D03E52 /* Swift_TrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4C9ED271B0D8600D03E52 /* Swift_TrainingTests.swift */; };
 		31B4C9F8271B0D8600D03E52 /* Swift_TrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4C9F7271B0D8600D03E52 /* Swift_TrainingUITests.swift */; };
 		31B4C9FA271B0D8600D03E52 /* Swift_TrainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4C9F9271B0D8600D03E52 /* Swift_TrainingUITestsLaunchTests.swift */; };
+		31B4CA07271B10BE00D03E52 /* test.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B4CA06271B10BE00D03E52 /* test.xib */; };
+		31B4CA09271B111A00D03E52 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4CA08271B111A00D03E52 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		31B4C9F3271B0D8600D03E52 /* Swift_TrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_TrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B4C9F7271B0D8600D03E52 /* Swift_TrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TrainingUITests.swift; sourceTree = "<group>"; };
 		31B4C9F9271B0D8600D03E52 /* Swift_TrainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TrainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31B4CA06271B10BE00D03E52 /* test.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = test.xib; sourceTree = "<group>"; };
+		31B4CA08271B111A00D03E52 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				31B4C9D6271B0D8400D03E52 /* AppDelegate.swift */,
 				31B4C9D8271B0D8400D03E52 /* SceneDelegate.swift */,
 				31B4C9DA271B0D8400D03E52 /* ViewController.swift */,
+				31B4CA06271B10BE00D03E52 /* test.xib */,
+				31B4CA08271B111A00D03E52 /* Test.swift */,
 				31B4C9DC271B0D8400D03E52 /* Main.storyboard */,
 				31B4C9DF271B0D8600D03E52 /* Assets.xcassets */,
 				31B4C9E1271B0D8600D03E52 /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31B4C9E3271B0D8600D03E52 /* LaunchScreen.storyboard in Resources */,
+				31B4CA07271B10BE00D03E52 /* test.xib in Resources */,
 				31B4C9E0271B0D8600D03E52 /* Assets.xcassets in Resources */,
 				31B4C9DE271B0D8400D03E52 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31B4C9DB271B0D8400D03E52 /* ViewController.swift in Sources */,
+				31B4CA09271B111A00D03E52 /* Test.swift in Sources */,
 				31B4C9D7271B0D8400D03E52 /* AppDelegate.swift in Sources */,
 				31B4C9D9271B0D8400D03E52 /* SceneDelegate.swift in Sources */,
 			);
